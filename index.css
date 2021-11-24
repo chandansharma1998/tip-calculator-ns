@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(58, 11, 11);
+}
+
+.card {
+  border: black solid 1px;
+  width: 40%;
+  background-color: whitesmoke;
+  margin: auto;
+  position: relative;
+  top: 150px;
+}
+
+h3 {
+  color: white;
+  background-color: rgb(29, 2, 2);
+  padding: 10px;
+  text-align: center;
+}
+
+.form-item {
+  margin: 15px;
+}
+
+#submit {
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(201, 14, 45);
+  border: none;
+}
+
+#submit:hover {
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+#result {
+  margin: 10px;
+  display: none;
+}
